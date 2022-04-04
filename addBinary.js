@@ -26,8 +26,5 @@ function addBinary(a, b) {
       carryOver = 0;
     }
   }
-
   return resultArr.reverse().join("");
 }
-
-console.log(addBinary("11", "1"));
